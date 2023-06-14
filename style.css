@@ -1,0 +1,168 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.top {
+    background-color: coral;
+    text-align: center;
+    height: 20%;
+}
+header{
+    
+}
+.king_pizza {
+    margin-left: 10px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.giant_pizza {
+    margin-top: 300px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.Jalapeno_pizza {
+margin-left: 10px;
+margin-top: 525px;
+position: absolute;
+}
+
+h4{
+position: absolute;
+}
+
+.king_pizza:hover{
+border: 2px darkblue dotted;
+border-radius: 20px;
+
+}
+
+.Jalapeno_pizza:hover{
+border: 2px darkblue dotted;
+border-radius: 20px;
+}
+
+.giant_pizza:hover{
+border: 2px darkblue dotted;
+border-radius: 20px;
+}
+
+.king_pizza1:hover{
+opacity: 1;
+}
+
+.Jalapeno_pizza1:hover{
+opacity: 1;
+}
+
+.giant_pizza1:hover{
+opacity: 1;
+}
+
+.king_pizza1{
+opacity: 0.5;
+    margin-left: 200px;
+    margin-top: 150px;
+
+}
+
+.Jalapeno_pizza1{
+opacity: 0.5;
+    margin-left: 200px;
+    margin-top: 575px;
+}
+
+.giant_pizza1{
+opacity: 0.5;
+    margin-left: 200px;
+    margin-top: 350px;
+}
+
+.king_pizza2{
+opacity: 1;
+    margin-left: 200px;
+    margin-top: 185px;
+
+}
+
+.Jalapeno_pizza2{
+opacity: 1;
+    margin-left: 200px;
+    margin-top: 600px;
+}
+
+.giant_pizza2{
+opacity: 1;
+    margin-left: 200px;
+    margin-top: 385px;
+}
+
+h4{
+    margin-top: 750px;
+text-align: center;
+}
+.hub{
+    text-align: start;
+}
+
+.about{
+    text-align: center;
+}
+
+.we best{
+    text-align: end;
+}
+
+.popular{
+    background-color: gold;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.nav-link{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #1E1E1E;
+    border: 2px dotted black;
+    padding: 5px;
+}
+.nav-link:first-child{
+    font-weight: 700;  
+    color: orangered;
+
+}
+
+
+.nav-link:hover:first-child{
+    color: #1E1E1E;
+    border: 5px dotted black;
+    transition: 0.2s ease-in;
+}
+
+
+.nav-link:hover{
+    font-weight: 700;
+    color: green;
+    border: 5px dotted black;
+    transition: 0.2s ease-in;
+}
+.down {
+    background: coral;
+    padding: 5px;
+    width: 100%;
+    height: 10%;
+}
